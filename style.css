@@ -6,8 +6,7 @@
 
 body {
     color: cornflowerblue;
-    margin: 0px;
-    background-color: rgb(231, 231, 231);
+    margin: 0px;     
     /*background-image: linear-gradient(to bottom, #3E3E67, #6B4669, #B54E61, #FF8944, #84B8D7);*/
     /*background-image: var(--color-manha);*/
     height: 100vh;
@@ -21,8 +20,7 @@ header {
 }
 
 section {
-    background-color: blueviolet;
-    height: 35em;
+    background-color: blueviolet;    
     width: 50em;
     border-radius: 20px;
     margin-left: auto;
@@ -31,27 +29,31 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
 }
 
+div {
+    text-align: center;
+}
+
 div#espaço-data {
-    width: 22em;
-    height: 200px;
+    width: 22em;    
     margin-left: auto;
     margin-right: auto;
-    /*background-color: ;*/
-
+    
     color: white;
 
     text-align: center;
     font-size: 2em;
 }
 
-div#espaço-foto {
-    height: 350px;
+div#espaço-foto {    
     width: 22em;
-    background-color: white;
-    
     margin-left: auto;
     margin-right: auto;    
-    border-radius: 50%;    
+}
+
+img {
+    width: 15em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
